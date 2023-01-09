@@ -47,7 +47,8 @@ public class AccountPageTest extends TestBase {
     {
         accountpage.newaccount(AccountName,ChildAccountName);
         Assert.assertEquals(accountpage.verifyaccname(),AccountName,"Account Creation failed");
-        System.out.println("Assertion Pass");
+        System.out.println("Assertion Pass Lisha");
+      
 
     }
 	
