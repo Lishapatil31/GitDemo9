@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SF Service App Automation Test Suite">
+
+ 
+
+     <listeners>
+<listener class-name="com.qa.Reports.Listener" />
+</listeners>
+
+<test name="Sales app">
+<classes>
+
+ 
+
+		<class name="com.qa.Test.CampaignTest"></class>
+		<class name="com.qa.Test.LeadTest"></class>
+		<class name="com.qa.Test.AccountPageTest"></class>
+		<class name="com.qa.Test.ContactPageTest"></class>
+		<class name="com.qa.Test.OpportunityTest"></class>
+		<class name="com.qa.Test.AddProductPrice"></class>
+		<class name="com.qa.Test.PriceBookTest"></class>
+		
+
+</classes>
+</test>
+</suite>
